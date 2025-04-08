@@ -9,26 +9,18 @@ export default function HomeScreen() {
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#808080', dark: '#808080' }}
-      headerImage={
-        <Image
-          source={require('@/assets/images/partial-react-logo.png')}
-          style={styles.reactLogo}
-        />
-      }>
+      >
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Bem-vindo João!</ThemedText>
-        <HelloWave />
-      </ThemedView>
+        <ThemedText type="title">Bem-vindo, João!</ThemedText>
+     
+    </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Conta</ThemedText>
         <ThemedText>R$129,89
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
-        <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
-        </ThemedText>
+        <ThemedText type="subtitle">Pix</ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Cartão de crédito</ThemedText>
