@@ -11,7 +11,7 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#808080', dark: '#808080' }}
       headerImage={
         <Image
-          source={require('@/assets/images/logo-image.png')}
+          source={require('@/assets/images/logo-image-removebg.png')}
           style={styles.reactLogo}
         />
       }>
@@ -27,6 +27,9 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Pix</ThemedText>
       </ThemedView>
+      <ThemedText style={styles.buttOn}>
+      <button> oi</button>
+      </ThemedText>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Cartão de crédito</ThemedText>
         <ThemedText>
@@ -48,7 +51,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   reactLogo: {
-    height: 178,
+    height: "100%",
     width: 290,
     bottom: 0,
     left: 0,
